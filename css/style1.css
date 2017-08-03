@@ -1,0 +1,136 @@
+header{
+	margin: 0px;
+	background-color: lightgrey;
+	position: relative;
+	
+}
+
+body{
+	
+background-color: lightgrey	; 
+position:relative;
+}
+
+
+
+nav li{
+	text-decoration: none;
+	display: inline;
+	float:right;
+	font-size: 14.5px;
+	margin-top: 2px;
+
+}
+
+footer{
+	margin-bottom:500px;
+	position: fixed;
+	bottom: 0;
+	background-color: black;
+	color: white;
+	visibility: hidden;
+}
+
+aside li{
+	display: inline;
+
+}
+
+
+footer-content{
+	background-color: lightgrey;
+	color: white;
+}
+
+h2{
+	text-align: center;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('Image/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: right;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+main{
+	margin-top: 30px;
+}
+
+.row1{
+margin-top: 25px;
+
+}
+
+.Image{
+	background-image: url('Image/Expendable.jpg');
+}
+
+.Image1{
+	background-image: url('Image/Escape_Plan.jpeg');
+}
+
+.Image2{
+	background-image: url(Image/Inception.jpg);
+}
+
+nav a{
+	text-decoration: none;
+
+}
+nav a:hover{
+	font-size: 16px;
+}
+
+.movies_section{
+	
+	width: 100%;
+	height: auto;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.imagemain{
+	width: 100%;
+}
+
+.heading{
+ text-align: center;
+ margin-right: 5px;
+
+}
+
+h2{
+	text-align: center;
+}
+
+h1 a{
+	color: #888777; 
+   -webkit-transition: color 1s ease-in;
+   -moz-transition: color 1s ease-in;
+   -o-transition: color 1s ease-in;
+   -ms-transition: color 1s ease-in;
+   transition: color 1s ease-in;
+   display: inline;
+
+}
+
+h1 a:hover{
+	color: #668899;
+}
+
+img{
+	align-items: center;
+}
